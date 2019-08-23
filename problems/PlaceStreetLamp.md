@@ -49,4 +49,4 @@ int main(void){
 }
 ```
 [:arrow_left:上一题:被3整除](CountNumsDividedBy3.md)
-[:arrow_right:下一题:迷路的牛牛](#)
+[:arrow_right:下一题:迷路的牛牛](NiuniuIsLost.md)
