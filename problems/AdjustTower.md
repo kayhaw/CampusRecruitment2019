@@ -26,4 +26,4 @@
 ```c++
 ```
 [:arrow_left:上一题:表达式求值](WhichHeap.md)
-[:arrow_right:下一题:小易的字典](AdjustTower.md)
+[:arrow_right:下一题:小易的字典](LookupDictionary.md)

@@ -18,12 +18,47 @@
 输出
 8
 说明
-三种零食总体积小于10,于是每种零食有放入和不放入两种情况，一共有2*2*2 = 8种情况。
+三种零食总体积小于10,于是每种零食有放入和不放入两种情况，一共有2\*2\*2 = 8种情况。
 
 ## :bulb:解决思路
+dfs深度优先搜索遍历所有情况
 
 ## :pencil2:代码
 ```c++
+#include <iostream>
+#include <vector>
+#include <cmath>
+#include <algorithm>
+using namespace std;
+//sum的类型int改为long，否则出错
+void dfs(long sum, int loc, vector<long> &v, int &n, long &w, long &ans){
+    if(sum > w)
+        return;
+    else
+        ++ans;
+    for(int i = loc; i < n; ++i)
+        dfs(sum+v[i], i+1, v, n, w, ans);
+}
+int main(void){
+    int n, x;
+    long w, sum = 0, ans = 0;
+    vector<long> v;
+    cin>>n>>w;
+    for(int i = 0; i < n; ++i){
+        cin>>x;
+        v.push_back(x);
+        sum += x;
+    }
+    if(sum <= w){
+        //不能直接输出2^30输出大于int范围会改成指数形式，用long输出
+        ans = pow(2, n);
+    }else{
+        sort(v.begin(), v.end());
+        dfs(0, 0, v, n, w, ans);
+    }
+    cout<<ans<<endl;
+    return 0;
+}
 ```
 [:arrow_left:上一题:牛牛的闹钟](LatestGetupTime.md)
 [:arrow_right:下一题:俄罗斯方块](PlayTetris.md)
