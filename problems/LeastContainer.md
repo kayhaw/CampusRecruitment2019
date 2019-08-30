@@ -51,4 +51,4 @@ int main(void){
 }
 ```
 [:arrow_left:上一题:字符串包含](KMP.md)
-[:arrow_right:下一题:回文子串](#)
+[:arrow_right:下一题:回文子串](SubstrPalindrome.md)
