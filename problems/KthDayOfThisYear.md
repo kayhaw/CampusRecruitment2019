@@ -36,4 +36,4 @@ int main(void){
 }
 ```
 [:arrow_left:上一题:字符串长度最大乘积](MaxProductOfStrLen.md)
-[:arrow_right:下一题:数字序列第n位的值](#)
+[:arrow_right:下一题:数字序列第n位的值](NthValue.md)
