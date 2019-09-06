@@ -46,3 +46,5 @@
 - [跳格子游戏](problems/JumpStair.md)
 - [糖果分配](problems/AllocateCandy.md)
 - [员工考勤记录](problems/AttendanceRecord.md)
+- [解码方法](problems/DecodeMethods.md)
+- [漂流船问题](problems/MinNumOfBoats.md)

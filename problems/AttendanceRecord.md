@@ -32,4 +32,4 @@ int main(void){
 }
 ```
 [:arrow_left:上一题:糖果分配](AllocateCandy.md)
-[:arrow_right:下一题:解码方法](#)
+[:arrow_right:下一题:解码方法](DecodeMethods.md)
