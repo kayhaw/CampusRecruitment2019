@@ -48,3 +48,4 @@
 - [员工考勤记录](problems/AttendanceRecord.md)
 - [解码方法](problems/DecodeMethods.md)
 - [漂流船问题](problems/MinNumOfBoats.md)
+- [推到吧骨牌](problems/PushDominoes.md)

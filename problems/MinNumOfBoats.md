@@ -47,4 +47,4 @@ int main(void){
 }
 ```
 [:arrow_left:上一题:解码方法](DecodeMethods.md)
-[:arrow_right:下一题:推到吧骨牌](#)
+[:arrow_right:下一题:推到吧骨牌](PushDominoes.md)
