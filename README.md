@@ -57,3 +57,5 @@
 - [方格走法](problems/CountWaysInGrid.md)
 - [:x:possible sentences](#)
 - [输出指定长度子串](problems/PrintSubString.md)
+- [链表合并](problems/MergeLinkedList.md)
+- [括号配对问题](problems/ParenthesesMathch.md)

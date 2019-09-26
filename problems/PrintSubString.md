@@ -39,4 +39,4 @@ int main(void){
 }
 ```
 [:arrow_left:上一题:possible sentences](#)
-[:arrow_right:下一题:链表合并](#)
+[:arrow_right:下一题:链表合并](MergeLinkedList.md)
