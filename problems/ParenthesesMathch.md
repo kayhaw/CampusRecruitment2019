@@ -52,4 +52,4 @@ int main(void){
 }
 ```
 [:arrow_left:上一题:链表合并](MergeLinkedList.md)
-[:arrow_right:下一题:整数的倒数](#)
+[:arrow_right:下一题:整数的倒数](ReverseNumber.md)

@@ -59,3 +59,7 @@
 - [输出指定长度子串](problems/PrintSubString.md)
 - [链表合并](problems/MergeLinkedList.md)
 - [括号配对问题](problems/ParenthesesMathch.md)
+- [整数的倒数](problems/ReverseNumber.md)
+- [字符串加法](problems/BinaryNumberAdd.md)
+- [:x:有序矩阵中第K小的元素](problems/KthMinNumInMatrix.md)
+- [字符串旋转](problems/RotateString.md)
